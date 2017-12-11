@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+	<title>Intuit Accounts - Sign Up</title>
+	<link rel = "icon" href = "images/favicon.png">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "js/scripts.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "css/styles.css">
+  </head>
+  <body>
+    <header>
+	  <button id = "sign-in"><img src = "images/whitelock.png" id = "lock">Sign In</button>
+	  <p class = "have-account">Already have an Intuit account?</p>
+	  <p class = "have-account">
+	  <a href = "https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">
+	    I forgot my User ID of Password</a>
+	  </p>
+	</header>
+	<img src = "images/intuit.png" id = "intuit-main-logo" align = "middle">
+	<div id = "affiliated"></div>
+	<div id = "main-sign">
+	  <p class = "heading">One Account.</p>
+	  <p class = "heading">Everything Intuit</p>
+	  <p id = "subheading">Create an account for all of Intuit's products including Mint. <a href = "https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></p>
+	  <form>
+	    <p class = "form-label">Email address</p>
+	    <input type = "email" name = "email" required>
+		<div class = "spacing-block"></div>
+		<p class = "form-label">Phone(recommended)</p>
+		<input type = "tel" id = "phone" maxlength = "30">
+		<p id = "call-rates" class = "form-label">Standard call, messaging, or data rates may apply.</p>
+		<div class = "spacing-block"></div>
+		<p class = "form-label">Password</p>
+		<input type = "password">
+		<div class = "spacing-block"></div>
+		<input type = "submit" name = "create" value = "Create Account" id = "submit">
+	  </form>
+	   <div class = "spacing-block"></div>
+	  <p id = "agreement">By clicking Create Account, you agree to our <a href = "https://www.mint.com/terms">License Agreement</a> and <a href = "https://security.intuit.com/index.php/privacy">Privacy Statement</a></p>
+	</div>
+	
+	
+	<footer>
+	  <img src = "images/intuit.png" id = "intuit-bot-logo">
+	  <ul id = "legal">
+	    <li><a href = "https://www.intuit.com/legal/">Legal</a></li>
+		<li><a href = "https://security.intuit.com/index.php/privacy">Privacy</a></li>
+		<li><a href = "https://security.intuit.com/">Security</a></li>
+	  </ul> 
+	  
+	  <p>&copy;2017 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+	  <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+	</footer>
+  </body>
+</html>

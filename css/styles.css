@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-color: rgb(236, 238, 241);
+	font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input{
+	box-sizing: border-box;
+	border: 1px solid rgb(193,197,200);
+	border-radius: 4px;
+	display: inline-block;
+	height: 34px;
+	padding-right: 6px;
+	padding-left: 8px;
+	font-size: 16.8px;
+	width: 320px;
+	
+}
+
+
+header{
+	margin-top: 8px;
+	color: #505050;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#intuit-main-logo{
+	height: 35px;
+	width: 120px;
+	margin: auto;
+	display: block;
+	padding: 20px 0;
+}
+
+#intuit-bot-logo{
+	display: block;
+	margin: auto;
+	width: 82px;
+	padding: 20px 0;
+}
+
+#main-sign{
+	box-sizing: border-box;
+	width: 380px;
+	padding: 30px;
+	margin: 0 auto;
+	border: 1px solid rgb(199,199,199);
+	font-size: 14px;
+	
+    font-weight: 400;
+	background-color: white;
+}
+
+.heading{
+	font-size: 24px;
+	text-align: center;
+	line-height: 26.4px;
+	color: #4C4C4C;
+}
+
+.form-label{
+	padding-bottom: 6px;
+	font-size: 14px;
+	color: #404040;
+}
+
+.spacing-block{
+	width: 320px;
+	height: 20px;
+	margin: 5px 0;
+}
+
+#call-rates{
+	font-size: 10px;
+	padding: 5px 0;
+	line-height: 15px;
+}
+
+#subheading{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #4C4C4C;
+	padding: 20px 0;
+}
+
+#agreement{
+	line-height: 18px;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	color: #bbb;
+}
+
+a{
+	text-decoration: none;
+	color: #0077c5;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #0077c5;
+}
+
+#submit{
+	background-color: rgb(0, 119, 197);
+	color: white;
+	height: 44px;
+	padding: 6px 12px;
+	border-color: rgb(0, 119, 197);
+	border-radius: 4px;
+	background-image: url(images/whitelock.png);
+	cursor: pointer;
+}
+
+footer{
+	color: #505050;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	font-weight: 400;
+}
+
+#legal{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+}
+#legal li{
+	display: inline;
+	padding-left: 8px;
+}
+#legal li a{
+	color: #505050;
+}
+
+#sign-in{
+	box-sizing: border-box;
+	background-color: rgb(0, 119, 197);
+	padding: 0 20px;
+	border: 1px solid #4C4C4C;
+	border-radius: 4px;
+	height: 34px;
+	color: white;
+	float: right;
+	text-align: center;
+	font-size: 13.5px;
+	margin-right: 24px;
+	margin-left: 8px;
+}
+
+#lock{
+	height: 13.5px;
+	margin-right: 4px;
+}
+
+.have-account{
+	display: block;
+	text-align: right;
+	line-height: 18px;
+	font-size: 12px;
+	text-align: right;
+}
