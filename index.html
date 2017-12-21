@@ -17,22 +17,57 @@
 	    I forgot my User ID of Password</a>
 	  </p>
 	</header>
+	<div class = "spacing-block"></div>
 	<img src = "images/intuit.png" id = "intuit-main-logo" align = "middle">
 	<div id = "affiliated"></div>
+	
+	
 	<div id = "main-sign">
+	
 	  <p class = "heading">One Account.</p>
 	  <p class = "heading">Everything Intuit</p>
 	  <p id = "subheading">Create an account for all of Intuit's products including Mint. <a href = "https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></p>
 	  <form>
+	  
 	    <p class = "form-label">Email address</p>
 	    <input type = "email" name = "email" required>
 		<div class = "spacing-block"></div>
+		
+		
 		<p class = "form-label">Phone(recommended)</p>
 		<input type = "tel" id = "phone" maxlength = "30">
 		<p id = "call-rates" class = "form-label">Standard call, messaging, or data rates may apply.</p>
+		
+		<div id = "phone-clicked">
+		    <input type = "checkbox" id = "check-box" checked>
+		    <p id = "phone-verify">Verify with text message <span id = "parenth">(most secure)</span></p>
+			<div class = "spacing-block"></div>
+		</div>
+		
+		<div id = "phone-blur" class = "phone-blur-remove">
+		  <p>We strongly recommend adding a phone number.</p>
+		  <p>This will help verify your account and keep it safe.</p>
+		</div>
+		
 		<div class = "spacing-block"></div>
+		 
 		<p class = "form-label">Password</p>
-		<input type = "password">
+		<input type = "password" id = "password">
+		
+		<div id = "pass-clicked">
+		 <div class = "spacing-block"></div>
+		  <ul id = "password-checks">
+		    <li id = "pass-len">Use 8 or more characters</li>
+		    <li id = "pass-case">Use upper and lower case letters (e.g. Aa)</li>
+		    <li id = "pass-num">Use a number (e.g. 1234)</li>
+		    <li id = "pass-symbol">Use a symbol (e.g. !@#$)</li>
+		  </ul>
+		  <div class = "spacing-block"></div>
+		  <p class = "form-label">Confirm password</p>
+		  <input type = "password" name = "pwconfirm">
+		   
+		   
+		</div>
 		<div class = "spacing-block"></div>
 		<input type = "submit" name = "create" value = "Create Account" id = "submit">
 	  </form>
@@ -40,6 +75,10 @@
 	  <p id = "agreement">By clicking Create Account, you agree to our <a href = "https://www.mint.com/terms">License Agreement</a> and <a href = "https://security.intuit.com/index.php/privacy">Privacy Statement</a></p>
 	</div>
 	
+	<div class = "spacing-block"></div>
+	<div class = "spacing-block"></div>
+	<div class = "spacing-block"></div>
+	<div class = "spacing-block"></div>
 	
 	<footer>
 	  <img src = "images/intuit.png" id = "intuit-bot-logo">
